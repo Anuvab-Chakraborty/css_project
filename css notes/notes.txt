@@ -1,2 +1,26 @@
 CSS notes:
-    1.
+    1. CSS stands for cascading style sheets.It is used to describe
+    the presentation of HTML , XML pages. 
+    2. There are 3 different ways to add CSS to our document:
+        1.External stylesheet.
+            If we create a new file for css only it is called
+            External CSS
+        2.Internal Stylesheet.
+            If we write style command in the heading and then
+            try to complete the css it is called Internal CSS
+        3.In-line CSS.
+            If we use style as an attribute tjem it's called 
+            inline css it takes precedent over anytype of css.
+    3.CSS Anatomy:
+        example:
+            p{
+                font-size: 50px;
+                color:green;
+            }
+        In here the p is a tag a SELECTOR
+        What is inside the brackets are called declarations
+        the color here is called PROPERTY and GREEN IS 
+        PROPERTY VALUE.
+        The whole structure is called RULESET/RULE.
+    There are 3 different types of selectors in CSS.
+        1.Element Selector.
