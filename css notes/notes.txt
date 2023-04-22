@@ -43,3 +43,11 @@ CSS notes:
     given to it by element selectors.
 
     "!important" overrides everything 
+
+--------------------------------------------------------------------------------------
+
+    CSS colors:
+
+        Background-color sets the Background to a desired color.
+        We can save colors in many different ways one being rgb
+        function.
