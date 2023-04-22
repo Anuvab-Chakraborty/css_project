@@ -1,11 +1,47 @@
+/*{
+    font-family: monospace;
+}*/
+
+
 body{
     font-size: 22px;
+    border: 10px solid black;
+}
+
+main{
+    font-family: monospace;
+}
+
+h1,h2{
+    color: rgb(168, 226, 43);
+}
+
+.anuvab{
+    color: red;
 }
 
 p{
     color: brown;
 }
 
-.anuvab{
+p{
+    color: blue;
+}
+
+/*p span{
+    text-transform: uppercase;
+    background-color: gold;
+}*/
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+/*.anuvab{
     color: red;
+}*/
+
+#second{
+    font-style: italic;
 }

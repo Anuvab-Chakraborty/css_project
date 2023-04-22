@@ -23,4 +23,23 @@ CSS notes:
         PROPERTY VALUE.
         The whole structure is called RULESET/RULE.
     There are 3 different types of selectors in CSS.
-        1.Element Selector.
+        1.Element Selector:
+            It is created using something like body{then PROPERTY
+            and PROPERTY VALUE}
+        2.Class Selector.
+            It is defined by a ".{classname}" manner.Used to select
+            a specific class element.There can be more than one
+            type of classes in a single HTML file
+        3.Id Selector
+            It is defined by a "#{idnName}" manner.
+            There should be only 1 ID per page
+        4. Universal Selector.
+            It is defined by a "*" manner.
+            It selects everything on the page.
+
+    Cascade meaning of CSS it means that in CSS everything works
+    as in a top-down manner or waterfall manner.
+    Class with universal specificity can overwrite the funtions
+    given to it by element selectors.
+
+    "!important" overrides everything 
