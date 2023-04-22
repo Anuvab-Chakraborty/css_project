@@ -51,3 +51,12 @@ CSS notes:
         Background-color sets the Background to a desired color.
         We can save colors in many different ways one being rgb
         function.
+        rgb color takes 3 arguments
+        rgba takes 4 last one deciding the transparency of the text.
+        hexadecimal color palette also works from 0-9 and also uses
+        alphabets A-F.
+        HSL in color means hue saturation and lightness.
+        color tools:
+        Checker tools:
+            coolers.co
+            webaim.org
