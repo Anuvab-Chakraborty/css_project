@@ -96,3 +96,16 @@ CSS notes:
         it only grows along with it's contents.Sometimes we want
         a body that is full height of the page.We can do that 
         using vh.
+
+--------------------------------------------------------------------------------------
+
+    CSS Box Model:
+        In the CSS Box model first comes the content on the most inside layer
+        of the box then comes the padding layer then comes the border and then
+        comes the margin of the box.
+        Usually the margin of a h1 box is set as 0.67em as default in the
+        browser.The em is dependent mostly upon the font-size of the element.
+        All the minute details can be hard to remember that's why we use a 
+        simple css reset. 
+
+        The default box size set by the browser is called content-box.
