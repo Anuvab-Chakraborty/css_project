@@ -1,0 +1,54 @@
+/*html{
+    font-size: 32px;
+}
+
+header{
+    width: 25%;
+}
+let's do css reset now!
+*/
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+/*
+this creates a horizontal navigation bar at the bottom
+of the page.
+But using 100% widht can be much better.
+body{
+    width: 100vw;
+}
+*/
+
+body{
+    min-height: 100vh;
+}
+
+h1{
+    border: 2px dashed darkblue;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+/*
+we can achieve this thing also with width : %;
+main{
+    width: 50vw;
+    background-color: blue;
+    font-size: 2rem;
+}*/
+
+main{
+    font-size: 2rem;
+}
+
+/*p{
+    font-size: 2em;
+}
+*/
+p{
+    font-size: 2rem;
+    width: 40ch;
+}

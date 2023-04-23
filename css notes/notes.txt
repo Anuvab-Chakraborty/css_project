@@ -43,6 +43,7 @@ CSS notes:
     given to it by element selectors.
 
     "!important" overrides everything 
+    Border tag is used to create a border around a specific area.
 
 --------------------------------------------------------------------------------------
 
@@ -63,4 +64,35 @@ CSS notes:
 --------------------------------------------------------------------------------------
 
     CSS Units and Sizes:
-        
+        default font-size in any browser is 16px.
+        If we use html{font-size:16px;}
+        we will declare 16px as the absolute value
+        for the font-size.
+        People generally use rem to manipulate font-size.
+        Rem means that font-size will  be that number of
+        times of the root element.
+        Even if we change the font-size of the parent element
+        of which we are using rem it'll not change because it's
+        not dependent on the parent element's font size.
+        EM is also an PROPERTY of css that can be used.
+        But em depends on the parents too.
+        We use EM mostly on paddings and margins.
+
+        Width also has another relative property namingly
+        ch which sets the character width of the text that
+        appears on the page.
+
+        Percentage:
+        Let's say we want to change the width of an
+        element. If we change the width of its parent
+        then the width of it will be the specified
+        percentage of the width of it's parent.
+        It is mostly used to set the size of a page.
+
+        There's two viewport elements that are left those are
+        viewportwidth(vw) viewportheight(vh).
+        VW acts as similar to %width but %width is better.
+        The body of the page is never the full height of the page
+        it only grows along with it's contents.Sometimes we want
+        a body that is full height of the page.We can do that 
+        using vh.
