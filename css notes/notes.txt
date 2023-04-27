@@ -107,6 +107,8 @@ CSS notes:
         browser.The em is dependent mostly upon the font-size of the element.
         All the minute details can be hard to remember that's why we use a 
         simple css reset. 
+        If we write auto after giving the specs of the margin it'll center the
+        margin horizontally (in the middle of left and right).
 
         The default box size set by the browser is called content-box.
         Content-box doesn't account for the padding and the border so if 
@@ -118,3 +120,22 @@ CSS notes:
         if you give the border box a width of 400 px it will give the content
         space 348px and the padding 24px and the border 2px and keep the whole
         box below 400px.ALTHOUGH MARGIN is NOT INCLUDED in the calculation.
+
+
+        If we create a class in our HTML file we can manipulate that class in 
+        CSS by using .[className]{} as an reference.
+
+        There can be different types of margin.
+        top-right-bottom-left. both margin and padding works in this manner.
+
+        For border we also have these four but we can break out attributes like
+        border-top into border-top-width,border-top-color,border-top-style etc.
+
+        Outline is not part of the box model because unlike border it doesn't
+        takes up any extra space.
+        It has two attributes offset which decides the position. It can also 
+        take negative values too.
+
+        We may use the border radius attribute to set the height and width of
+        a class to half of it's specified height and width and that will help
+        us create a circle.
