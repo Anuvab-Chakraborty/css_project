@@ -109,3 +109,12 @@ CSS notes:
         simple css reset. 
 
         The default box size set by the browser is called content-box.
+        Content-box doesn't account for the padding and the border so if 
+        you give it a width of 400px it will not include the padding and 
+        border in the 400px and the total would be more than 400px.
+
+        For the case of border box it considers the total of the width given
+        as the total area including the padding border and content that's why
+        if you give the border box a width of 400 px it will give the content
+        space 348px and the padding 24px and the border 2px and keep the whole
+        box below 400px.ALTHOUGH MARGIN is NOT INCLUDED in the calculation.
