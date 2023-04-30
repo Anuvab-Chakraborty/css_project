@@ -158,15 +158,36 @@ CSS notes:
             to note text and fonts are two different things.
             If we set text decoration to none , all the links that Usually have underline
             text that turns into normal text.
+
         Text transform:
             Text transform has different attributes like uppercase, lowercase, capitalize
             it helps us change our text alignments.
+            To help us maintain the space alignment with the end of line to make it end 
+            together.
 
+        Text indent:
+            Works almost same as it's name.EM units is best to use.
 
+        Line-height:
+            Line-height takes units as argument. generally 1.2 is the default line height.
+            1.5 is recommended.
 
+        Letter-spacing, Word spacing:
+            letter spacing takes em as argument.
+            Word spacing also same.
+        
+        Font-weight:
+            Font-weight defines if the font is bold or not it actually declares the thickness
+            of the font.The normal is around 300-400.
 
+        Font-style:
+            Font-style is used to specify the font is of which type like italics or something.
 
-
+        Font-family:
+            Font-family is the type of font used. The default font family is serif.
+            for web it's generally sans-serif.monospace, cursive,fantasy.
+            vscode suggests different choices at once in an order. If the name has space
+            in it then we must include it inside single quotes.ex-'courier new'
 
 
 

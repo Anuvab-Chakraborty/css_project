@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Foldit&display=swap');
 
 /*
 
@@ -10,7 +10,9 @@ is arranged and presented.
 body{
     padding: 10%;
     font-size: 2rem;
-    color: blue;
+/*     color: blue;
+ */
+    font-family: 'Foldit', cursive;
 }
 
 /* input,button{
@@ -20,4 +22,17 @@ body{
 p{
     text-decoration: underline;
     text-transform: capitalize;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5;
+    /*letter-spacing: 0.1em;*/
+    word-spacing: 0.1em;
+    font-weight: bold;
+    font-style: italic;
 }
+
+/* 
+.abc{
+    color: green;
+    font-style: normal;
+} */
