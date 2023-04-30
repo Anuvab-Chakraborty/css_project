@@ -16,3 +16,8 @@ body{
 /* input,button{
     font: inherit;
 } */
+
+p{
+    text-decoration: underline;
+    text-transform: capitalize;
+}

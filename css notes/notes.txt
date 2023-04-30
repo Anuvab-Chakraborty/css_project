@@ -147,4 +147,28 @@ CSS notes:
         We may use the border radius attribute to set the height and width of
         a class to half of it's specified height and width and that will help
         us create a circle.
-        
+
+
+
+------------------------------------------------------------------------------------------------
+
+    CSS Typography:
+        text decoration:
+            Text decoration element is used to define how the text should be displayed
+            to note text and fonts are two different things.
+            If we set text decoration to none , all the links that Usually have underline
+            text that turns into normal text.
+        Text transform:
+            Text transform has different attributes like uppercase, lowercase, capitalize
+            it helps us change our text alignments.
+
+
+
+
+
+
+
+
+
+
+
