@@ -71,6 +71,14 @@ CSS notes:
         People generally use rem to manipulate font-size.
         Rem means that font-size will  be that number of
         times of the root element.
+        Font-size declared in the body does get inherited
+        in the later portions of the code.Exception being
+        forms the form input and buttons doesn't 
+        automatically inherit the font-size. To inherit
+        the font-size we can do this:
+        input,button{
+            font-size:inherit;
+        } 
         Even if we change the font-size of the parent element
         of which we are using rem it'll not change because it's
         not dependent on the parent element's font size.
