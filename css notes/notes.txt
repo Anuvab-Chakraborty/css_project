@@ -187,7 +187,11 @@ CSS notes:
             Font-family is the type of font used. The default font family is serif.
             for web it's generally sans-serif.monospace, cursive,fantasy.
             vscode suggests different choices at once in an order. If the name has space
-            in it then we must include it inside single quotes.ex-'courier new'
+            in it then we must include it inside single quotes.ex-'courier new'.
+
+-----------------------------------------------------------------------------------------------------
+
+    CSS Styling links:
 
 
 
