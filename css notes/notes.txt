@@ -215,5 +215,14 @@ CSS notes:
         To set almost same hover and link color you can use HSL and change the first number
         there to make it work.We can also use opacity too.
 
+---------------------------------------------------------------------------------------------------------
 
+    CSS list Styling:
+
+        We use the list style element to give different type of numbering the list has. It has
+        many different values like circle , disc , upper-roman etc. EX:
+            ol{
+                list-style:upper-roman;
+            }
+            
 
