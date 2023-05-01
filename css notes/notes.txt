@@ -193,7 +193,27 @@ CSS notes:
 
     CSS Styling links:
 
+        Usually links comes along with the a tag. So to style links we can use some typography
+        methods that we used earlier.
+        By setting the text-decoration to none we can remove the default underline that comes
+        with the link.
 
+        If the link is visited it means it's state has been changed so we can use that changed
+        state to manipulate it's color more by using pseudo-class. It is representated by:
+        a:visited{
+            color:purple;
+        }
+        this way.The pseudo-class have more specificity than the regular a tag.
+        the link is active when we are clicking and holding onto the link.
+        correct order is: visited-hover-active.
+
+        focus pseudo-class is used to activate the links hovering over them while going
+        through the page.It goes along with hover pseudo-class.EX:
+            a:hover,a:focus{
+               color:palevioletred;
+               }
+        To set almost same hover and link color you can use HSL and change the first number
+        there to make it work.We can also use opacity too.
 
 
 
