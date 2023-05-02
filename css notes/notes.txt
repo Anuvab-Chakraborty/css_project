@@ -224,5 +224,59 @@ CSS notes:
             ol{
                 list-style:upper-roman;
             }
-            
+        We can also manipulate the list style by adding start="xyz" in the start tag of the list.
+        It works like an reference so we can also use alphabets and it'll be same as the change
+        being in place of number 3 the  numbering will start from c. EX:
+            <ol start="3" reversed>
+            <li>Easy</li>
+            </ol>
+        if we use reversed along with that we will get the numbering in reverse order.
+        If we do not want any indent we can set do this:
+            ol{
+                list-style:none;
+                padding:0;
+            }
 
+        ul{
+            list-style-type: square;
+            list-style-position: inside;
+            text-align: center;
+            color:red;
+            list-style-image: url('images/checkmark.png');
+            line-height: 1.6;
+        }
+
+        in the code above the text-align can create problems if we only use text-align and not
+        specify the list-style-position as inside in that case only the list items will move
+        and the boxes will stay at the same position.
+        Also using color affects everything in the list.
+        to use list-style-image the format must be of the type given above.
+        to completely write all these property in short hand we may use list-style and then
+        specify these attribute. 
+
+        ul li:nth-child(even){
+            color: blue;
+        }
+
+        in this line we are mentioning first which list we are going to manipulate then we are 
+        using a pseudo-class named nth-child to specify the posiion of the child we must
+        manipulate. The nth-child takes odd/even or any specific number as it's argument.
+
+        ul ::marker{
+            color:green;
+            font-size: 1em;
+            font-family: fantasy;
+            content: "Anuvab is best";
+        }
+        In this code the marker is a pseudo-element we must mention it with the list we are
+        going to style it with otherwise it overwrites all the list then if we use content we
+        can create the same thing as a sales page.
+
+        <ol start="3" reversed>
+                <li>Step One</li>
+                <li value="26">Step Two</li>
+                <li>Step Three</li>
+        </ol>
+        In this line of code as we mention a different value in the list item the numbering will
+        change to something that is according to that value in this case the first will be 3 
+        second will be 26 third will be 25 element of the numbering patter we are using.

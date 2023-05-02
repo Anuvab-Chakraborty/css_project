@@ -7,5 +7,29 @@ body {
 }
 
 ol{
-  list-style:upper-roman;
+/*   list-style:upper-roman;
+ */
+  list-style-type: lower-alpha;
+  padding: 0;
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: inside;
+  text-align: center;
+  color:red;
+  line-height: 1.6;
+  /* list-style-image: url('images/checkmark.png');
+  list-style: square url('images/checkmark.png') inside; */
+}
+
+ul li:nth-child(even){
+  color: blue;
+}
+
+ul ::marker{
+  color:green;
+  font-size: 1em;
+  font-family: fantasy;
+  content: "Anuvab is best";
 }
