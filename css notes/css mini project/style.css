@@ -16,5 +16,42 @@ nav{
     border: 2px solid green;
     border-radius: 2rem;
     margin: 0 auto 1rem;
-    padding: 0.5rem;   
+/*     padding: 0.5rem;*/
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+h2{
+    padding: 0.5rem;
+    background: magenta;
+    border-radius: 2rem 2rem 0 0;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    border-top: 2px solid black ;
+}
+
+li a{
+    display: block;
+}
+
+li a,
+li a:visited{
+    color: gray;
+}
+
+li a:hover,
+li a:focus{
+    background: deepskyblue;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
 }
