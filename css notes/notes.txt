@@ -280,3 +280,7 @@ CSS notes:
         In this line of code as we mention a different value in the list item the numbering will
         change to something that is according to that value in this case the first will be 3 
         second will be 26 third will be 25 element of the numbering patter we are using.
+
+
+        To manipulate multiple list items we can use border top to differentiate every list item
+        with another list item by a straight line. We also use border radius too.
