@@ -299,3 +299,5 @@ CSS notes:
 
         We can use inline-block.
         inline-block applies everything the block does.
+
+        display: none also exists.
