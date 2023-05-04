@@ -4,3 +4,27 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+
+/* main{
+  background-color: blue;
+  width: 50%;
+}
+
+p{
+  background-color:crimson;
+  margin: 25px 50px;
+}
+
+.opposite{
+  display: inline set in html;
+  display: inline-block ;
+  background-color: black;
+  color:whitesmoke;
+  padding: 4rem;
+  margin-top: 100px ;
+  height: 2rem;
+} */
+
+ul{
+  list-style: none;
+}
