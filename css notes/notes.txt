@@ -301,3 +301,9 @@ CSS notes:
         inline-block applies everything the block does.
 
         display: none also exists.
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+    CSS Floats:
+    
