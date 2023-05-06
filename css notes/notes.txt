@@ -308,4 +308,4 @@ CSS notes:
     CSS Floats:
 
         TO create 5 paragraph with lorem text the vs code shorthand is :
-            p*5>lorem20
+            p*5>lorem20.
