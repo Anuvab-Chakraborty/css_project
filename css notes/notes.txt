@@ -309,3 +309,5 @@ CSS notes:
 
         TO create 5 paragraph with lorem text the vs code shorthand is :
             p*5>lorem20.
+        We can use float left or right to create an effect where we can
+        emulate the pages of a newspaper.
