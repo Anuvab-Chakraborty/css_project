@@ -313,3 +313,11 @@ CSS notes:
         emulate the pages of a newspaper.
         
 to convert a class into round shape add height width and border-radius (%) to it.
+
+        using floats we can create a box and enter some details into that box but
+        when we do that normally another paragraph will come and it'll dangle together
+        with the float element. so to avoid that we can use something like clear to 
+        push the second paragraph back.
+        But if the content is not enough and we want to specifically highlight the 
+        container(section) then if there's not enough content we will have to use 
+        something called overflow or display flow-root method.
